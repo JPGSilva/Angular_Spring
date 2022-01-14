@@ -6,9 +6,15 @@ import { Course } from '../model/course';
   templateUrl: './courses.component.html',
   styleUrls: ['./courses.component.scss']
 })
+
 export class CoursesComponent implements OnInit {
 
-courses: Course[] = [];
+courses: Course[] = [
+{ _id: '1', name: 'Angular', category: 'front-end'},
+{ _id: '2', name: 'PrimeFaces for JSF', category: 'front-end'}
+
+
+];
 displayedColumns = ['name','category'];
 
   constructor() { }
