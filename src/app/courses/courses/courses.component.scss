@@ -3,3 +3,11 @@ table {
     color: #454
   }
   
+  .loading-spinner {
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
